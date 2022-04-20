@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+}
+
+.imagen_fondo{
+    width: 100%;
+    height: 250px;
+    margin: 0px 120px 0px 120px;
+}
+
+.encabezado{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 0px 0px 500px;
+}
+
+.cont_cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cuerpo{
+    width: 40%;
+    margin: 30px 10px 10px 30px;
+}
+
+.img_producto{
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.nom_producto{
+    color: #20B2AA;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 0 20px 0;
+}
+
+.descr_producto{
+    color: #008080;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.prec_producto{
+    color: #008080;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 0 0 0;
+}
+.pie_pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    background-color: #8FBC8F;
+    color: #008080;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
